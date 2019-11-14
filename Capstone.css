@@ -1,0 +1,149 @@
+.flex-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+#logo{
+    float:left;
+}
+header {
+    height:32px;
+    padding:16px;
+}
+nav{
+    display:inline-flex;
+    float:right;
+    margin:5px;
+    padding-bottom: 5px;
+    text-decoration:underline;
+}
+nav span{
+    justify-content:space-between;
+    padding:10px;
+}
+#start-button{
+    padding:8px;
+    background-color:darkgray;
+    width:90%;
+    align-content:center;
+    border-radius:5px;
+}
+#start-text{
+    text-align:center;
+    font-weight:bold;
+    color:white;
+}
+.banner{
+    width:100%;
+    display:inline-flex;
+}
+.banner-elements{
+    padding-left:24px;
+}
+.banner-elements h2{
+    font-size:52px;
+}
+.banner-elements h4{
+    font-size:30px;
+}
+.banner-elements span{
+    align-content:center;
+}
+#banner-img{
+    width:60%;
+    margin:32px 24px;
+}
+.container{
+    width:100%;
+    background-color:gray;
+    padding-top:16px;
+    display:inline-flex;
+}
+.right-container{
+width:35%;
+}
+.practice img{
+    width:100%;
+}
+.practice{
+    text-align:left;
+    width:60%;
+    padding:32px 24px;
+}
+.practice h2{
+    margin-bottom:24px;
+}
+.practice p{
+    margin-bottom:32px;
+}
+.small-banner{
+    border-left:1px solid gray; 
+    border-bottom:1px solid gray;
+    width:100%;
+    display:inline-flex;
+}
+.small-banner img{
+    width:35%;
+    height:auto;
+    margin: 16px 16px;
+}
+.small-banner text{
+    width:65%;
+    margin:8px;
+}
+#start-learning h1{
+Margin: 32px;
+text-align:center;
+padding-top:32px;
+}
+#start-learning{
+    background-color:gray;
+}
+.start-learning{ 
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin:72px 32px;
+    padding:32px;
+}
+.class img{
+    height:auto;
+    width:100%;
+}
+.class{
+    width:30%;
+    background-color:white;
+}
+.thesis-box{
+    display:inline-flex;
+
+}
+.thesis-title{
+    margin:32px 0px;
+    text-align:center;
+}
+.video{
+margin-left:24px;
+margin-right:24px;
+width:60%;
+}
+.video video{
+width:100%;
+}
+.thesis-boxes{
+    display:inline-flex;
+    flex-wrap:wrap;
+    width:40%;
+}
+.fisma{
+    width:100%;
+    display:inline;
+}
+.fisma img{margin:16px 16px;
+    width:35%;
+    height:auto;
+
+}
+.fisma h2{
+    width:65%;
+}
